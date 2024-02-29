@@ -1,6 +1,6 @@
 {
-  "teamIdentifier": "MTGSZH8QM4",
-  "passTypeIdentifier": "pass.com.phatblat.BenChatelain",
+  "teamIdentifier": "${teamIdentifier}",
+  "passTypeIdentifier": "${passTypeIdentifier}",
   "formatVersion": 1,
   "serialNumber": "0",
   "beacons": [
@@ -19,26 +19,26 @@
   },
   "organizationName": "@phatblat",
   "logoText": "phatblat",
-  "description": "Ben Chatelain's iCard",
+  "description": "Zsolt Kébel's iCard",
   "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(66, 59, 116)",
+  "backgroundColor": "rgb(7, 104, 168)",
   "generic": {
     "primaryFields": [
       {
         "key": "name",
-        "value": "Ben Chatelain"
+        "value": "Zsolt Kébel"
       }
     ],
     "secondaryFields": [
       {
         "key": "email",
         "label": "EMAIL",
-        "value": "ben@ditto.live"
+        "value": "..."
       },
       {
         "key": "twitter_handle",
         "label": "SOCIALS",
-        "value": "@phatblat",
+        "value": "@zsoltkebel",
         "textAlignment": "PKTextAlignmentRight"
       }
     ],
@@ -46,12 +46,12 @@
       {
         "key": "title",
         "label": "TITLE",
-        "value": "Senior Product Engineer"
+        "value": "Software Enthusiast"
       },
       {
         "key": "employer",
         "label": "EMPLOYER",
-        "value": "Ditto",
+        "value": "STFC",
         "textAlignment": "PKTextAlignmentRight"
       }
     ],
@@ -59,54 +59,31 @@
       {
         "key": "email",
         "label": "EMAIL",
-        "value": "ben@ditto.live",
-        "dataDetectorTypes": ["PKDataDetectorTypeLink"]
-      },
-      {
-        "key": "twitter_link",
-        "label": "TWITTER",
-        "value": "<a href='https://twitter.com/phatblat'>@phatblat</a>"
-      },
-      {
-        "key": "blog",
-        "label": "BLOG",
-        "value": "phatbl.at",
+        "value": "...",
         "dataDetectorTypes": ["PKDataDetectorTypeLink"]
       },
       {
         "key": "linkedin",
         "label": "LINKEDIN",
-        "value": "linkedin.com/in/benchatelain",
-        "dataDetectorTypes": ["PKDataDetectorTypeLink"]
-      },
-      {
-        "key": "twitch",
-        "label": "TWITCH",
-        "value": "twitch.tv/phatblat",
-        "dataDetectorTypes": ["PKDataDetectorTypeLink"]
-      },
-      {
-        "key": "instagram",
-        "label": "INSTAGRAM",
-        "value": "instagram.com/phatblat",
+        "value": "linkedin.com/in/zsoltkebel",
         "dataDetectorTypes": ["PKDataDetectorTypeLink"]
       },
       {
         "key": "github",
         "label": "GITHUB",
-        "value": "github.com/phatblat",
+        "value": "github.com/zsoltkebel",
         "dataDetectorTypes": ["PKDataDetectorTypeLink"]
       },
       {
         "key": "source_code",
         "label": "SOURCE CODE",
-        "value": "Make your own pass from my template at github.com/phatblat/phatblat.pass",
+        "value": "Make your own pass from phatblat's template at github.com/phatblat/phatblat.pass",
         "dataDetectorTypes": ["PKDataDetectorTypeLink"]
       },
       {
         "key": "last_updated",
         "label": "LAST UPDATED",
-        "value": "2022-09-03T14:08-06:00",
+        "value": "2024-02-29T18:37-00:00",
         "dateStyle": "PKDateStyleFull"
       }
     ]

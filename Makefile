@@ -12,8 +12,11 @@ SHELL = /bin/sh
 PROJECT_DIR = signpass
 BIN_DIR = $(PROJECT_DIR)/bin
 OUTPUT_BINARY = $(BIN_DIR)/signpass
-PASS_PACKAGE = phatblat.pass
+PASS_PACKAGE = zsoltkebel.pass
 XCODE_PROJECT = signpass/signpass.xcodeproj
+
+TEAM_IDENTIFIER= # Pass this info when calling make pass
+PASS_TYPE_IDENTIFIER= # Pass this info when calling make pass
 
 ################################################################################
 #
@@ -49,4 +52,5 @@ build: ## Builds the project
 
 .PHONY: pass
 pass: build ## Builds the pass
+	teamIdentifier=$(TEAM_IDENTIFIER) passTypeIdentifier=$(PASS_TYPE_IDENTIFIER) envsubst < $(PASS_PACKAGE)/pass-info.json > $(PASS_PACKAGE)/pass.json
 	$(OUTPUT_BINARY) -p $(PASS_PACKAGE)
